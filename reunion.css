@@ -1,0 +1,30 @@
+/**header**/
+* {box-sizing: border-box;}
+
+body {
+    font-size: 18px;
+    line-height: 2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;}
+
+header, ul {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;}
+
+a {color: white;}
+
+/*Logo*/
+header img {
+    position: absolute;
+    top: 0px;
+    left: 0px;}
+
+header {position: relative;}
+
+header h1, nav ul {padding-left: 110px;}
+
+/* nav bar */ 
+nav {background-color: #008000;}
+
+
