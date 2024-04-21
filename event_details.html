@@ -6,7 +6,7 @@
     <meta name="keywords" content="reunion, tickets">
     <meta name="author" content="Scarlett Smith">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel ="stylesheet" href="reunion.css">
+    <link rel ="stylesheet" href="css/reunion.css">
      <!-- Google tag (gtag.js) -->
      <script async src="https://www.googletagmanager.com/gtag/js?id=G-LFLEHFZVFX"></script>
      <script>
@@ -21,7 +21,7 @@
 </head>
 <body>
     <header>
-        <button><img src="images/crest.png" width="100" height="100" alt="Summerville High School Crest"></button>
+        <img src="images/crest.png" width="100" height="100" alt="Summerville High School Crest">
         <h1>Summerville High School Class of 84 Reunion</h1>
         <nav>
             <ul>
@@ -30,75 +30,121 @@
                 <li><a href="schedule.html">Schedule</a></li>
                 <li><a href="hotels.html">Hotels</a></li>
                 <li><a href="buy_tickets.html">Buy Tickets</a></li>
+                <li><a href="alumni.html">Alumni</a></li>
             </ul>
         </nav>
     </header>
-    <main>
+    <main class="event_details">
+        <style>
+            h1, nav, p {
+                color: rgb(10,119,10);
+            }
+        </style>
         <h1>Event Details</h1>
-            <nav>
-                <ul>
-                    <li><a href="event_details.html">Day 1</a></li>
-                    <li><a href="event_details.html">Day 2</a></li>
-                    <li><a href="event_details.html">Day 3</a></li>
-                    <li><a href="event_details.html">Parking</a></li>
+                <ul style =color:rgb(10,119,10) class="horizontal">
+                    <li>Day 1 | </li>
+                    <li>Day 2 | </li>
+                    <li>Day 3 | </li>
+                    <li>Parking</li>
                 </ul>
-            </nav>
-            <a href="https://nam02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.paypal.com%2Fdonate%2F%3Fhosted_button_id%3D7PD54BPVRQEUN%26fbclid%3DIwAR27&data=05%7C02%7CSRS12%40email.sc.edu%7Ce29a6f389b90464d639208dc2d96d625%7C4b2a4b19d135420e8bb2b1cd238998cc%7C0%7C0%7C638435373063606057%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=eEPtpUtxDDKrf7c%2F9gOf4dGPAEjd2uz%2BmJKPlMcOTVM%3D&reserved=0">Buy Tickets</a>
-            <img src="https://pbs.twimg.com/ext_tw_video_thumb/1722949216400494592/pu/img/QSj70I27b4Erzw2x.jpg" alt="Football Stadium">
-            <p>
-                Take a closer look into all of the fun events that we have planned! As always, if you have any questions, please contact the event coordinators. 
-            </p>
+            <div class="stadium">
+                <img src="images/stadium.jpg_large"  width="1450" height="500" alt="Football Stadium">
+                <a href="https://nam02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.paypal.com%2Fdonate%2F%3Fhosted_button_id%3D7PD54BPVRQEUN%26fbclid%3DIwAR27&data=05%7C02%7CSRS12%40email.sc.edu%7Ce29a6f389b90464d639208dc2d96d625%7C4b2a4b19d135420e8bb2b1cd238998cc%7C0%7C0%7C638435373063606057%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=eEPtpUtxDDKrf7c%2F9gOf4dGPAEjd2uz%2BmJKPlMcOTVM%3D&reserved=0">
+                    <button class="btn tickets">BUY TICKETS</button>
+                </a>
+            </div>
+            <div class ="stadiumtext">
+                <p>
+                    Take a closer look into all of the fun events that we have planned! As always, if you have any questions, please contact the event coordinators. 
+                </p>
+            </div>      
     </main>
-    <section>
-        <h2>Day 1: June 20th</h2>
-        <p>
-            Hutchison Square, Third Thursday<br>
-            Join us to Meet and Greet everyone! This is being held in conjunction with Third Thursday sponsored by DREAM Community Partners. If you haven’t visited Summerville recently, you’re in for a treat since the city’s historic downtown is transformed into a unique local market with regional artists, crafters, and entertainers. During this period, the unique stores, boutiques, and eateries will be open for all to enjoy. There will be a table on Hutchison Square with the balloons 84! Dress is casual!
-            There is plenty of FREE parking throughout the downtown including the town garage located behind Town Hall. Traffic is re-routed from 4:00 until 9:00 from the following streets: Little Main Street, W Richardson to Central. 
-        </p>
-        <img src="https://summervilledream.org/wp-content/uploads/2022/06/75182214-4780-498C-9B68-756034624C73.jpg" alt="Third Thursday">
-        <p>
-            Located in W. Richardson & Short Central<br>
-                Rain or Shine
-        </p>
+    
+    <section class="third">
+        <style>
+            p {
+                color: rgb(10,119,10);
+            }
+        </style>
+        <div class = "thirdText">
+            <h2>Day 1: June 20th</h2>
+            <p style = color:black>
+                Hutchison Square, Third Thursday
+            </p>
+            <p>
+                Join us to Meet and Greet everyone! This is being held in conjunction with Third Thursday sponsored by DREAM Community Partners. If you haven’t visited Summerville recently, you’re in for a treat since the city’s historic downtown is transformed into a unique local market with regional artists, crafters, and entertainers. During this period, the unique stores, boutiques, and eateries will be open for all to enjoy. There will be a table on Hutchison Square with the balloons 84! Dress is casual!
+                There is plenty of FREE parking throughout the downtown including the town garage located behind Town Hall. Traffic is re-routed from 4:00 until 9:00 from the following streets: Little Main Street, W Richardson to Central. 
+            </p>
+        </div>
+        <div class = "thirdIMG">
+            <img src="https://summervilledream.org/wp-content/uploads/2022/06/75182214-4780-498C-9B68-756034624C73.jpg" width="500" height="300" alt="Third Thursday">
+            <p style = color:black>
+                Located in W. Richardson & Short Central<br>
+                    Rain or Shine
+            </p>
+        </div>
     </section>
-    <section>
-        <h2>Day 2: June 21st</h2>
-        <p>
-            Candlelite Pavilion at Summerville Country Club<br>
-            Let’s enjoy great food, an open bar and dancing to ‘80’s music while we catch up with our classmates at one of Summerville’s nostalgic places! A few of our favorite teachers will join us as we remember so many good times.<br>
-            Dress is casual.<br>
-            We will also have a tribute for our classmates who have passed.<br>
-            Parking is available on site.
-        </p>
-        <img src="https://summervillecountryclub.com/wp-content/uploads/2017/09/Pavilion-Wedding.jpg" alt="Candlelite Pavillion">
-        <p>
-            Located at 400 Country Club Blvd, Summerville, SC 29483
-        </p>
+    <section class="Candlelite">
+        <div class="Candlelitetext">
+            <h2 style = color:white>Day 2: June 21st</h2>
+            <p style = color:black>
+                Candlelite Pavilion at Summerville Country Club
+            </p>
+            <p style = color:white>
+                Let’s enjoy great food, an open bar and dancing to ‘80’s music while we catch up with our classmates at one of Summerville’s nostalgic places! A few of our favorite teachers will join us as we remember so many good times.
+                Dress is casual.
+            </p>
+            <p style = color:white;>
+                We will also have a tribute for our classmates who have passed.<br>
+                Parking is available on site.
+            </p>
+        </div>
+        <div class="CandleliteIMG">
+            <img src="https://summervillecountryclub.com/wp-content/uploads/2017/09/Pavilion-Wedding.jpg" width="500" height="300" alt="Candlelite Pavillion">
+            <p style = color:black>
+                Located at 400 Country Club Blvd, Summerville, SC 29483
+            </p>
+        </div>
     </section>
-    <section>
-        <h2>Day 3: June 22nd</h2>
+    <section class="Memorial">
+        <style>
+            p {
+                color: rgb(10,119,10);
+            }
+        </style>
+        <div class="Memorialtext">
+        <h2  style = "color:black"> Day 3: June 22nd</h2>
+        <p  style = "color:black">
+            Memorial Stadium & McKissick Museum
+        </p>
         <p>
-            Memorial Stadium & McKissick Museum<br>
             This day will include a walking tour of the McKissick Museum and the Stadium.
             The stadium has been renovated and includes a statue of Coach and Mrs. McKissick. 
             The museum is a must see! It opened in the fall of 2023, and we are in for a treat ~ there is lots of memorabilia, including all ten state championship trophies won under McKissick’s tutelage. 
             We can even click on a button to re-live our senior year football season! The Dorchester Two Educational Foundation provides opportunities for alumni and the community to support the McKissick Museum by purchasing custom engraved bricks for the walkway.<br>
             Parking is available on site.
         </p>
-        <img src="https://abcnews4.com/resources/media/787fb9ca-f19c-4630-ac11-0f8a94ba3140-large16x9_McKissickMuseum1.jpg" alt="McKissick Museum">
-        <p>
-            Located at 805 S. Main Street, Summerville, SC 29483
-        </p>
+        </div>
+        <div class="MemorialIMG">
+            <img src="https://abcnews4.com/resources/media/787fb9ca-f19c-4630-ac11-0f8a94ba3140-large16x9_McKissickMuseum1.jpg" width="500" height="300" alt="McKissick Museum">
+            <p  style = "color:black">
+                Located at 805 S. Main Street, Summerville, SC 29483
+            </p>
+        </div>
+        
     </section>
-    <section>
-        <h2>Parking</h2>
-        <ol>
-            <li>Town Garage behind Town Hall<br>Short Central</li>
-            <li>Street parking throughout town<br>Downtown Summerville</li>
-            <li>Miler Country Club - There will be plenty of available parking<br>Miler Country Club</li>
-        </ol>
-        <img src="https://bloximages.newyork1.vip.townnews.com/postandcourier.com/content/tncms/assets/v3/editorial/e/94/e94869ac-0dca-11ed-a659-d3088a960086/62e16aa2a8978.image.jpg?resize=1200%2C800" alt="Parking Garage">
+    <section class="Parking">
+        <div class="Parkingtext">
+            <h2>Parking</h2>
+            <ul>
+                <li>Town Garage behind Town Hall<br>Short Central</li>
+                <li>Street parking throughout town<br>Downtown Summerville</li>
+                <li>Miler Country Club - There will be plenty of available parking<br>Miler Country Club</li>
+            </ul>
+        </div>
+        <div class="ParkingIMG">
+            <img src="https://bloximages.newyork1.vip.townnews.com/postandcourier.com/content/tncms/assets/v3/editorial/e/94/e94869ac-0dca-11ed-a659-d3088a960086/62e16aa2a8978.image.jpg?resize=1200%2C800" width="500" height="300" alt="Parking Garage">
+        </div>
     </section>
     <footer>
         <img src="https://gray-wcsc-prod.cdn.arcpublishing.com/resizer/v2/HT74CPR2PZEY5HAY77Y3TZY6BA.jpg?auth=efe85b7a9bd14532e91bf836fc6cb5c5259b0d8ef6bb89374af492fc80fc1936&width=980&height=622&smart=true" alt="Summerville High Logo">
