@@ -1,0 +1,42 @@
+/*Schedule*/
+.Schedule main {
+    font-size: 16px;
+    line-height: 2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 200px;
+    align-items: center;
+}
+
+.Schedule h1, p {
+    color:rgb(10, 119, 10);
+    text-align: center;
+}
+
+.Schedule .btn {
+    position: absolute;
+    top: 80%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    border: 2px solid black;
+    background-color: gold;
+    padding: 14px 60px;
+    font-size: 18px;
+    cursor: pointer;
+    display: inline-block;
+  }
+
+.Schedule .btn:hover { background: white}
+  
+.tickets {color: black;}
+
+.review {
+    background-color: rgb(10, 119, 10);
+    text-align:center;
+    padding: 50px;
+}
+.review h1,p {
+    color:rgb(10, 119, 10);
+    text-align: center;
+}
+
