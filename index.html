@@ -6,24 +6,23 @@
     <meta name="keywords" content="reunion, tickets">
     <meta name="author" content="Scarlett Smith">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel ="stylesheet" href="reunion.css">
-    <link rel ="stylesheet" href="index1.css">
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LFLEHFZVFX"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-LFLEHFZVFX');
-    </script>
-
+    <link rel ="stylesheet" href="css/reunion.css">
+     <!-- Google tag (gtag.js) -->
+     <script async src="https://www.googletagmanager.com/gtag/js?id=G-LFLEHFZVFX"></script>
+     <script>
+         window.dataLayer = window.dataLayer || [];
+         function gtag(){dataLayer.push(arguments);}
+             gtag('js', new Date());
+ 
+             gtag('config', 'G-LFLEHFZVFX');
+     </script>
+ 
     <title>Summerville High School Class of 84 Reunion</title>
 </head>
 <body>
     <header>
-        <button><img src="images/crest.png" width="100" height="100" alt="Summerville High School Crest"></button>
-        <h1>Summerville High School Class of 84 Reunion</h1>
+        <img src="images/crest.png" width="100" height="100" alt="Summerville High School Crest">
+        <h1 style="color:rgb(10,119,10)">Summerville High School Class of 84 Reunion</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -31,27 +30,37 @@
                 <li><a href="schedule.html">Schedule</a></li>
                 <li><a href="hotels.html">Hotels</a></li>
                 <li><a href="buy_tickets.html">Buy Tickets</a></li>
+                <li><a href="alumni.html">Alumni</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <div>
-            <img src="images/football.jpg" width="1000" height="400" alt="Summerville High Football Players">
-            <a href="https://nam02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.paypal.com%2Fdonate%2F%3Fhosted_button_id%3D7PD54BPVRQEUN%26fbclid%3DIwAR27&data=05%7C02%7CSRS12%40email.sc.edu%7Ce29a6f389b90464d639208dc2d96d625%7C4b2a4b19d135420e8bb2b1cd238998cc%7C0%7C0%7C638435373063606057%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=eEPtpUtxDDKrf7c%2F9gOf4dGPAEjd2uz%2BmJKPlMcOTVM%3D&reserved=0">Buy Tickets</a>
+    <main class="football">
+        <div class ="footballPicture">
+            <img src="images/football.jpg" width="1450" height="500" alt="Summerville High Football Players">
+            <a href="https://nam02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.paypal.com%2Fdonate%2F%3Fhosted_button_id%3D7PD54BPVRQEUN%26fbclid%3DIwAR27&data=05%7C02%7CSRS12%40email.sc.edu%7Ce29a6f389b90464d639208dc2d96d625%7C4b2a4b19d135420e8bb2b1cd238998cc%7C0%7C0%7C638435373063606057%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=eEPtpUtxDDKrf7c%2F9gOf4dGPAEjd2uz%2BmJKPlMcOTVM%3D&reserved=0">
+                <button class="btn tickets">BUY TICKETS</button>
+            </a>
         </div>
-        <div>
-            <img src="images/IMG_1551.jpeg" width="400" height="600" alt="Reunion Flyer">
-            <p>
-                40 years of the class of 84! This is an exciting time for us all, and what better way to celebrate than with a reunion at the place where it all started. 
-                The Summerville High School Class of 84 Reunion will take place from June 20th to June 22nd. 
-                Go check out all of the fun events that we have planned, and buy your tickets! As always, GO GREEN WAVE!
-            </p>
-            <p>
-                Please contact our lovely event coordinators regarding any questions or concerns. 
-                Make sure to follow the Summerville High School Class of ‘84 on Facebook to get live updates on all events!
-            </p>
+        <div class="Flyer">
+            <div class="reunionFlyer">
+                <img src="images/IMG_1551.jpeg" width="400" height="600" alt="Reunion Flyer">
+            </div>
+            <div class="reunionFlyerText">
+                <p style = color:rgb(10,119,10)>
+                    40 years of the class of 84! This is an exciting time for us all, and what better way to celebrate than with a reunion at the place where it all started. 
+                    The Summerville High School Class of 84 Reunion will take place from June 20th to June 22nd. 
+                    Go check out all of the fun events that we have planned, and buy your tickets! As always, GO GREEN WAVE!
+                </p>
+                <p style = color:rgb(10,119,10)>
+                    Please contact our lovely event coordinators regarding any questions or concerns. 
+                    Make sure to follow the Summerville High School Class of ‘84 on Facebook to get live updates on all events!
+                </p>
+            </div>
         </div>
-        <section>
+        <section class="ContactUs">
+            <style>
+                h2, form { color:white;}
+            </style>
             <h2>Contact Us!</h2>
             <form>
                 <label for="fname">First name:</label><br>
@@ -67,11 +76,11 @@
         </section>
     </main>
     <footer>
-        <img src="images/greenwave_logo.jpg" alt="Summerville High Logo">
-        <h2>Summerville High School Class of 84 Reunion</h2>
+        <img src="images/greenwave_logo.jpg" width="100" height="100" alt="Summerville High Logo" class="foot">
+        <h2 style = color:rgb(10,119,10)>Summerville High School Class of 84 Reunion</h2>
         <nav>
             <ul>
-                <li><a href="index.html">Contact Us</a></li>
+                <li><a href="alumni.html">Contact Us</a></li>
                 <li><a href="index.html">Email</a></li>
                 <li><a href="http://summervillehighschoolalumni.com/summerville-sc/class-of-1984.html">Facebook</a></li>
                 <li><a href="#top">Back to top of page</a></li>
