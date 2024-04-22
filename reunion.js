@@ -1,23 +1,26 @@
-/*Validate Form*/
 function validateForm() {
-    var FirstName = document.getElementById('First name').value;
-    var LastName = document.getElementById('Last name').value;
-    var Email = document.getElementById('Email').value;
-    var Message = document.getElementById('Message').value;
+    var FirstName = document.getElementById('fname').value;
+    var LastName = document.getElementById('lname').value;
+    var Email = document.getElementById('email').value;
+    var Message = document.getElementById('message').value;
 
-    if(FirstName.trim()=== '') {
+    if(FirstName.trim() === '') {
         alert("Enter your First name here");
         return false;
     }
-    if(LastName.trim()=== '') {
+    if(LastName.trim() === '') {
         alert("Enter your Last name here");
         return false;
     }
-    if(Email.trim()=== '') {
+    if(Email.trim() === '') {
         alert("Enter your email here");
         return false;
     }
-    if(Message.trim()=== '') {
+    if(!isValidEmail(Email)) {
+        alert("Enter a valid email address");
+        return false;
+    }
+    if(Message.trim() === '') {
         alert("Enter your Message here");
         return false;
     }
@@ -27,6 +30,6 @@ function validateForm() {
 }
 
 function isValidEmail(Email) {
-    var emailRight= /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    return emailRight.test(Email);
+    var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailPattern.test(Email);
 }
