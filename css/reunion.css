@@ -438,4 +438,121 @@ main {
     display: inline-block;
     margin-right:10px;
 }
+/*-----------------------------------------------------------------------*/
+/*Hotels*/
+* {box-sizing: border-box;}
+.horizontalh {
+    text-align: center;
+}
 
+.Lowcountry {
+    position: relative;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    font-size: 16px;
+    align-items: center;
+    padding: 50px;
+}
+
+.Lowcountrytext h2, ul{
+    color:rgb(10, 119, 10);
+    width: 80%;
+    grid-column: 1;
+    grid-row: 1;
+    text-align: left;
+    font-style: bold;
+    padding: 50px;
+}
+
+.LowcountryIMG {
+    grid-column: 2;
+    grid-row: 1;
+    text-align: center;
+    font-style: bold;
+    padding: 0px;
+}
+
+.Flowertown {
+    position: relative;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    font-size: 16px;
+    align-items: center;
+    padding: 50px;
+}
+
+.Flowertowntext h2, ul{
+    color:rgb(10, 119, 10);
+    width: 80%;
+    grid-column: 1;
+    grid-row: 1;
+    text-align: left;
+    font-style: bold;
+    padding: 50px;
+}
+
+.FlowertownIMG {
+    grid-column: 2;
+    grid-row: 1;
+    text-align: center;
+    font-style: bold;
+    padding: 0px;
+}
+
+.Caroline {
+    position: relative;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    font-size: 16px;
+    align-items: center;
+    padding: 50px;
+}
+
+.Carolinetext ul{
+    color:rgb(10, 119, 10);
+    width: 80%;
+    grid-column: 1;
+    grid-row: 1;
+    text-align: left;
+    font-style: bold;
+    padding: 50px;
+}
+
+.CarolineIMG {
+    grid-column: 2;
+    grid-row: 1;
+    text-align: center;
+    font-style: bold;
+    padding: 0px;
+}
+
+.hott {
+    background-color: rgb(10, 119, 10);
+    position: relative;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    font-size: 16px;
+    align-items: center;
+    padding: 50px;
+}
+
+.hotttext p{
+    width: 80%;
+    grid-column: 1;
+    grid-row: 1;
+    text-align: left;
+    font-style: bold;
+    padding: 50px;
+}
+
+.hottIMG {
+    grid-column: 2;
+    grid-row: 1;
+    text-align: center;
+    font-style: bold;
+    padding: 0px;
+}
