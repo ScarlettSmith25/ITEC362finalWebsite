@@ -330,7 +330,7 @@ main {
 }
 
 .Parkingtext {
-    color: white;
+    color:rgb(255,255,255);
     width: 80%;
     grid-column: 1;
     grid-row: 1;
