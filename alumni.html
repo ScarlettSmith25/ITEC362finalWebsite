@@ -34,6 +34,7 @@
             </ul>
         </nav>
     </header>
+    <script src="reunion.js"></script>
     <main class="Alumni">
         <h1>Alumni</h1>
         <p>
@@ -45,7 +46,7 @@
                 h2, form { color:white;}
             </style>
             <h2>Contact Us!</h2>
-            <form>
+            <form id="ContactUs" onsubmit="return validateForm()">
                 <label for="fname">First name:</label><br>
                 <input type="text" id="fname" name="fname"><br>
                 <label for="lname">Last name:</label><br>
